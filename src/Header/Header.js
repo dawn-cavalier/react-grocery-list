@@ -1,10 +1,10 @@
 import React from 'react'
 import './Header.css'
 
-const Header = () => {
+const Header = ({ title = "Default Title" }) => {
     return (
         <header>
-            <h1>Groceries List</h1>
+            <h1>{title}</h1>
         </header>
     )
 }
