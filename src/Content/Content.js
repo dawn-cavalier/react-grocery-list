@@ -14,7 +14,7 @@ const Content = ({
   setSearch,
 }) => {
   return (
-    <main>
+    <>
       <AddItem
         newItem={newItem}
         setNewItem={setNewItem}
@@ -33,7 +33,7 @@ const Content = ({
       ) : (
         <p style={{ marginTop: "2rem" }}>Your list is empty.</p>
       )}
-    </main>
+    </>
   );
 };
 
